@@ -1,7 +1,7 @@
 name: liquid_bar_chart
 description: It is a bar chart with an animation like water. It is not suitable for displaying strict values.
 version: 0.0.1
-author: Yuichi Amemiya
+author: Yuichi Amemiya <mirock6.dev@gmail.com>
 homepage: https://github.com/mi6ock/liquid_bar_chart
 
 environment:

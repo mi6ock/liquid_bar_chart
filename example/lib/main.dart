@@ -1,4 +1,3 @@
-import 'dart:developer' as dev;
 import 'dart:math';
 
 import 'package:flutter/material.dart';
@@ -52,7 +51,7 @@ class _ChartExampleState extends State<ChartExample> {
     ];
 
     Random rnd = Random();
-    for (int i=0; i< 7; i++) {
+    for (int i = 0; i < 7; i++) {
       barDataList.add(
         BarData(
           value: rnd.nextDouble() * 10,
@@ -107,7 +106,6 @@ class _ChartExampleState extends State<ChartExample> {
           toolTip: tooltips[i],
         ),
       );
-      dev.log(barDataList.toString());
       setState(() {});
     }
   }

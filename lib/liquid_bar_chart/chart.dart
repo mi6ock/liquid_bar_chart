@@ -1,4 +1,3 @@
-import 'dart:developer' as dev;
 import 'dart:math';
 
 import 'package:flutter/material.dart';
@@ -32,8 +31,6 @@ class LBChart extends StatelessWidget {
     if (barDataList.length < 2) {
       throw Exception("2 or more data is required");
     }
-
-    dev.log(barDataList.length.toString());
 
     return Padding(
       padding: padding ?? EdgeInsets.zero,

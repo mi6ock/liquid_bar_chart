@@ -2,7 +2,7 @@
 
 
 ## Animated Bar Chart
-![Liquid Bar Chart](https://github.com/mi6ock/liquid_bar_chart/readme_files/blob/master/liquid_bar_chart.gif)
+![Liquid Bar Chart](https://github.com/mi6ock/liquid_bar_chart/blob/master/readme_files/liquid_bar_chart.gif)
 
 ### Description
 

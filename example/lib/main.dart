@@ -32,7 +32,7 @@ class _ChartExampleState extends State<ChartExample> {
   @override
   void initState() {
     super.initState();
-    _changeData();
+    _createData();
   }
 
   @override
@@ -62,15 +62,15 @@ class _ChartExampleState extends State<ChartExample> {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: () => _changeData(),
+        onPressed: () => _createData(),
       ),
     );
   }
 
-  void _changeData() {
+  void _createData() {
     Random rnd = Random();
     barDataList = [];
-    for (int i = 0; i < max(2, rnd.nextInt(8)); i++) {
+    for (int i = 0; i < 7; i++) {
       barDataList.add(
         BarData(
           value: rnd.nextDouble() * 10,
